@@ -1,7 +1,7 @@
 package medium;
 
 public class Exercicio03_medium {
-    public void somaAteMil() {
+    public int[] somaAteMil() {
 
         int somar = 0;
         for (int i = 0; i <= 1000; i++) {
@@ -12,5 +12,6 @@ public class Exercicio03_medium {
             }
         }
         System.out.println("Limite atingido!");
+        return new int[0];
     }
 }

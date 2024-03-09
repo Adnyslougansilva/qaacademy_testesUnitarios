@@ -1,7 +1,7 @@
 package medium;
 
 public class Exercicio04_medium {
-    public void multiplicaAteMilIteracoes() {
+    public int[] multiplicaAteMilIteracoes() {
 
         int resultado = 1;
         for (int i = 1; i <= 1000; i++) {
@@ -12,5 +12,6 @@ public class Exercicio04_medium {
             }
         }
         System.out.println("Resultado final: " + resultado);
+        return new int[0];
     }
 }
